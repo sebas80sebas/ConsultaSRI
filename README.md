@@ -1,14 +1,14 @@
-# 🏢 Consulta SRI Ecuador
+# Consulta SRI Ecuador
 
 Sistema de consulta de contribuyentes registrados en el Servicio de Rentas Internas (SRI) de Ecuador.
 
 ---
 
-## 📋 Descripción
+## Descripción
 
 **Consulta SRI** es una aplicación web que permite buscar información de contribuyentes registrados en el SRI de Ecuador mediante sus nombres y apellidos. La aplicación consulta datos públicos y presenta información detallada sobre razón social, identificación, actividad económica, establecimientos y más.
 
-### ✨ Características principales
+### Características principales
 
 - 🔍 Búsqueda de contribuyentes por nombres y apellidos
 - 📊 Visualización detallada de información del contribuyente
@@ -172,7 +172,7 @@ GET /sri?nombres=JUAN%20CARLOS&apellidos=GARCIA%20LOPEZ
 
 ---
 
-## 🌐 Deployment
+## 🌐 Despliegue
 
 ### Backend (Vercel)
 El backend está configurado para deployment en Vercel:
@@ -186,17 +186,7 @@ vercel
 ```bash
 cd frontend
 npm run build
-# Subir carpeta dist/ a tu hosting preferido
 ```
-
----
-
-## 🔒 Consideraciones de Seguridad
-
-- ⚠️ **Datos públicos**: La aplicación consulta información pública del SRI
-- 🔐 **Variables de entorno**: Nunca commits archivos `.env`
-- 🛡️ **Rate limiting**: Considera implementar rate limiting en producción
-- 📝 **Logs**: No registres información sensible en logs
 
 ---
 
@@ -378,17 +368,7 @@ vercel
 ```bash
 cd frontend
 npm run build
-# Upload dist/ folder to your preferred hosting
 ```
-
----
-
-## 🔒 Security Considerations
-
-- ⚠️ **Public data**: The application queries public SRI information
-- 🔐 **Environment variables**: Never commit `.env` files
-- 🛡️ **Rate limiting**: Consider implementing rate limiting in production
-- 📝 **Logs**: Don't log sensitive information
 
 ---
 
