@@ -10,16 +10,16 @@ Sistema de consulta de contribuyentes registrados en el Servicio de Rentas Inter
 
 ### Características principales
 
-- 🔍 Búsqueda de contribuyentes por nombres y apellidos
-- 📊 Visualización detallada de información del contribuyente
-- 🏪 Listado de establecimientos registrados
-- 🎨 Interfaz moderna y responsive
-- ⚡ Búsqueda rápida con indicadores de carga
-- 🎯 Filtrado automático de resultados
+- Búsqueda de contribuyentes por nombres y apellidos
+- Visualización detallada de información del contribuyente
+- Listado de establecimientos registrados
+- Interfaz moderna y responsive
+- Búsqueda rápida con indicadores de carga
+- Filtrado automático de resultados
 
 ---
 
-## 🏗️ Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 ```
 ConsultaSRI/
@@ -40,7 +40,7 @@ ConsultaSRI/
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 ### Frontend
 - **React** - Librería de interfaz de usuario
@@ -56,7 +56,7 @@ ConsultaSRI/
 
 ---
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 ### Prerrequisitos
 - Node.js (v14 o superior)
@@ -106,7 +106,7 @@ npm run dev
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### `GET /sri`
 
@@ -147,7 +147,7 @@ GET /sri?nombres=JUAN%20CARLOS&apellidos=GARCIA%20LOPEZ
 
 ---
 
-## 💻 Uso de la Aplicación
+## Uso de la Aplicación
 
 1. **Ingresar datos**: Escriba los nombres y apellidos del contribuyente a buscar
 2. **Buscar**: Presione el botón "Buscar Contribuyente" o Enter
@@ -162,7 +162,7 @@ GET /sri?nombres=JUAN%20CARLOS&apellidos=GARCIA%20LOPEZ
 
 ---
 
-## 🎨 Capturas de Pantalla
+## Capturas de Pantalla
 
 ### Pantalla de Búsqueda
 ![Búsqueda](docs/search-screen.png)
@@ -172,7 +172,7 @@ GET /sri?nombres=JUAN%20CARLOS&apellidos=GARCIA%20LOPEZ
 
 ---
 
-## 🌐 Despliegue
+## Despliegue
 
 ### Backend (Vercel)
 El backend está configurado para deployment en Vercel:
@@ -190,28 +190,28 @@ npm run build
 
 ---
 
-# 🏢 SRI Ecuador Query System
+# SRI Ecuador Query System
 
 Tax contributor query system for Ecuador's Internal Revenue Service (SRI).
 
 ---
 
-## 📋 Description
+## Description
 
 **Consulta SRI** is a web application that allows searching for registered taxpayer information in Ecuador's SRI through their names and surnames. The application queries public data and presents detailed information about business name, identification, economic activity, establishments, and more.
 
-### ✨ Key Features
+### Key Features
 
-- 🔍 Search taxpayers by first and last names
-- 📊 Detailed taxpayer information display
-- 🏪 List of registered establishments
-- 🎨 Modern and responsive interface
-- ⚡ Fast search with loading indicators
-- 🎯 Automatic result filtering
+- Search taxpayers by first and last names
+- Detailed taxpayer information display
+- List of registered establishments
+- Modern and responsive interface
+- Fast search with loading indicators
+- Automatic result filtering
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```
 ConsultaSRI/
@@ -232,7 +232,7 @@ ConsultaSRI/
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Frontend
 - **React** - UI library
@@ -248,7 +248,7 @@ ConsultaSRI/
 
 ---
 
-## 🚀 Installation and Setup
+## Installation and Setup
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -298,7 +298,7 @@ npm run dev
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### `GET /sri`
 
@@ -339,7 +339,7 @@ GET /sri?nombres=JUAN%20CARLOS&apellidos=GARCIA%20LOPEZ
 
 ---
 
-## 💻 Application Usage
+## Application Usage
 
 1. **Enter data**: Type the taxpayer's first and last names to search
 2. **Search**: Press the "Search Taxpayer" button or Enter
@@ -354,7 +354,7 @@ GET /sri?nombres=JUAN%20CARLOS&apellidos=GARCIA%20LOPEZ
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 ### Backend (Vercel)
 The backend is configured for Vercel deployment:
